@@ -1,6 +1,7 @@
 # Credit Card Classification
 
 Summary
+-------
 A reproducible, well-documented machine learning pipeline to detect fraudulent credit-card transactions using state-of-the-art preprocessing, model training, evaluation, and explainability tools — built to showcase production-ready ML engineering and data science skills.
 
 Why this project?
@@ -9,6 +10,7 @@ Why this project?
 - Designed for employers: clear code structure, reproducible experiments, and production-minded choices.
 
 Table of contents
+-----------------
 - Project overview
 - Highlights & features
 - Technical approach
@@ -56,6 +58,7 @@ Note: Replace these example numbers with your actual experiment outputs (MLflow 
 - Business impact: Potenially, reduction of false positives by X% while maintaining detection of high-risk transactions.
 
 Quick start (local)
+------------------
 1. Clone the repository
    git clone https://github.com/Kez123man/Credit_Card_Classification.git
    cd Credit_Card_Classification
@@ -91,6 +94,7 @@ Usage examples
   # then POST JSON to http://localhost:8000/predict
 
 Repository structure
+--------------------
 - Credit_card.csv
 - Credit_card_label.csv        # raw and processed datasets 
 - Credit_Card.ipynb            # exploratory notebooks and result analyses
@@ -120,7 +124,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 Contact
 Kez123man — https://github.com/Kez123man
-If you'd like this README to include your real run results, model artifacts, or a bespoke "About Me" section tailored to a job application, tell me which metrics and results to include and I will integrate them into the README.
 
 Acknowledgements
 This project was inspired by public credit card fraud detection datasets and is intended as a demonstrable portfolio piece for ML engineering and data science roles.
