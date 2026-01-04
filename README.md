@@ -91,7 +91,8 @@ Usage examples
 - Launch the demo API:
   docker build -t credit-cc .
   docker run -p 8000:8000 credit-cc
-  # then POST JSON to http://localhost:8000/predict
+  
+- Then POST JSON to http://localhost:8000/predict
 
 Repository structure
 --------------------
